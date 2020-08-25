@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#nav-bar{
+  position:sticky;
+  top:0;
+  z-index: 10;
+}
+.navbar-brand img{
+  height: 50px;
+  padding-left: 30px;
+  width: 150px;
+}
+.navbar-nav li{
+  padding:0 10px;
+}
+.navbar-nav li a{
+  float:right;
+  text-align: left;
+}
+#nav-bar ul li a:hover{
+  color:#007bff!important;
+}
+.navbar{
+  background: #fff;
+}
+.navbar-toggler{
+  border: none!important;
+}
+.nav-link{
+  color: #555!important;
+  font-weight: 600;
+  font-size: 16px;
+}
+#message-1{
+  display: block;
+  padding: 20px;
+
+}
+
+#message-2{
+  display: inline-block;
+  padding: 20px;
+}
+.contact{
+background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/service.jpg);
+}
+/* louie */
+* {
+    border-style: border-box;
+}
+
+body {
+    color: #333333;
+    font-family: arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+footer {
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+header {
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
+h1 {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+header a {
+  color: #888888;
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+.portrait {
+    width:250px;
+}
+
+input {
+   border: 1px solid #cccccc;
+   padding: 8px;
+
+}
+
+button {
+  cursor: pointer;
+  border: 1ps solid #888888;
+  background: #888888;
+  padding: 8px;
+  border-radius: 10px;
+}
